@@ -4,10 +4,9 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <p>Salut,</p>
+        <p>Hey! I'm Floriane, a Bordeaux based designer from specialized in branding and visual design, who has now been converted into Front-end development.</p>
         <p>
-          Je suis Floriane, j'ai créé ce site en React afin de m'exercer sur
-          cette librairie et ainsi faire évoluer mon site au fur et à mesure.
+        Send a scream if you are looking to collaborate!
         </p>
       </div>
     )

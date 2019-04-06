@@ -15,22 +15,31 @@ class Main extends Component {
     return (
       <HashRouter>
         <div>
-          <div className="App-logo">
-            <img className="bounceOutUp" src={logo} alt="logo" />
-            {/* <h1>Flowryane</h1> */}
-          </div>
           <div className="contentHead">
             <ul className="header">
               <li>
-                <NavLink exact to="/">
-                  Home
+                <img className="bounceOutUp" src={logo} alt="logo" />
+              </li>
+              <li>
+                <NavLink exact to="/" activeStyle={{
+                  fontWeight: "bold",
+                  color: "#dc0a4e"}}>
+                  home
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/stuff">Stuff</NavLink>
+                <NavLink to="/stuff" activeStyle={{
+                  fontWeight: "bold",
+                  color: "#dc0a4e"}}>
+                  stuff
+                </NavLink>
               </li>
               <li>
-                <NavLink to="/contact">Contact</NavLink>
+                <NavLink to="/contact" activeStyle={{
+                  fontWeight: "bold",
+                  color: "#dc0a4e"}}>
+                  contact
+                </NavLink>
               </li>
             </ul>
           </div>
